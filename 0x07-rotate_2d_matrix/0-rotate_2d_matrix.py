@@ -21,6 +21,7 @@ def rotate_2d_matrix(matrix):
             matrix[i][last] = top
 
 # Example usage
+if __name__ == "__main__":
 matrix = [
     [1, 2, 3],
     [4, 5, 6],
