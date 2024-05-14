@@ -1,5 +1,10 @@
+#!/usr/bin/python3
+"""Prime Game"""
+
+
 def isWinner(x, nums):
     def isPrime(num):
+
         if num < 2:
             return False
         for i in range(2, int(num ** 0.5) + 1):
